@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^/mini_project/edit/product/$1 ^mini_project/add_user.php?edit_id=$1  [R=301,NC,L]
